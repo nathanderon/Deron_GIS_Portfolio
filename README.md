@@ -20,3 +20,10 @@ I also hope to learn to better develop my ArcGIS Pro skills to glean additional 
 I also want to learn how to utilize GIS in a larger context. I understand many project have a GIS component to them yet may not be fully geospatial, so learning how to utilize these tools within a larger context would also prove useful.
 
 # Portfolio
+
+## Opioid Crisis Data in Mapbox
+In order to understand how to use open-source tools instead of relying solely on ArcGIS Pro, I developed [this Mapbox style](https://api.mapbox.com/styles/v1/nathanderon/ck8omkovz1z3j1iqhha8wdgvo.html?fresh=true&title=copy&access_token=pk.eyJ1IjoibmF0aGFuZGVyb24iLCJhIjoiY2s4bnZ4ZTFxMDFlbDNmcWc2dnVlNTl4dCJ9.MUch7BBkOExavWKYDckufA) which uses CDC data and shapefiles from the US Census to visualize prescription rates and opioid overdose death rates across the country. These maps were meant to mimic those published by the CDC themselves, [here](https://www.cdc.gov/drugoverdose/maps/rxcounty2017.html) and [here](https://www.cdc.gov/drugoverdose/data/statedeaths/drug-overdose-death-2017.html).
+
+This exercise showed me that a lot of visualization tasks can be done relatively painlessly in open-source tools such as Mapbox. While I did not find the interface very intuitive, I did not find ArcGIS intuitive at first either--GIS tools seem to take some time to understand regardless of the publisher. I did not engage in any analysis here, but visualization took roughly 20 minutes or so and allowed me to create professional maps on a free platform.
+
+This task highlighted for me how different tools can be strung together to create a low-cost workflow when needed. While much of the pre-processing for this task could be done in ArcGIS Pro, I could also complete the joins and data cleaning in Python and visualize in Mapbox. While perhaps a bit time consuming, this provides a good workaround for person use or if working at under-resourced organizations. 
